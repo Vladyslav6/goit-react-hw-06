@@ -15,3 +15,7 @@ const slice = createSlice({
 
 export const filtersReducer = slice.reducer;
 export const { changeFilter } = slice.actions;
+
+// const FilterContact = itemContact.filter((item) =>
+//   item.name.toLowerCase().includes(FilterContactNew.toLowerCase())
+// );
