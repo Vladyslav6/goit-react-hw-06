@@ -1,0 +1,9 @@
+import { createAction } from "@reduxjs/toolkit";
+
+// export const addContactAction = (newContact) => ({
+//   type: "ADD_CONTACT",
+//   payload: newContact,
+// });
+export const addContactAction = createAction("ADD_CONTACT");
+// console.log(addContactAction());
+// console.log(addContactAction({ name: "name", number: 123 }));
